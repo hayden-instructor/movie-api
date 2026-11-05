@@ -34,7 +34,6 @@ async function startServer() {
     console.log("Redis 미설정: DB 조회로 진행합니다.");
   }
 
-  //
   app.listen(port, "0.0.0.0", () => {
     console.log(`서버 실행: port ${port}`);
   });
